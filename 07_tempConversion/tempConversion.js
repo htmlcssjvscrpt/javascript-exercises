@@ -1,7 +1,7 @@
 const convertToCelsius = function(degrees) {
     let conversion = (degrees - 32) * 5/9;
     rounded = Math.round(conversion * 10) / 10;
-    return conversion;
+    return rounded;
     // alert(rounded);
 
 };
@@ -9,7 +9,7 @@ const convertToCelsius = function(degrees) {
 const convertToFahrenheit = function(degrees) {
     let conversion = degrees * 9/5 + 32;
     rounded = Math.round(conversion * 10) / 10;
-    return conversion;
+    return rounded;
     // alert(rounded);
 };
 
